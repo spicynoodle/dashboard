@@ -192,7 +192,7 @@ export default (function () {
   $('#dataTable2').DataTable({
     'ajax': {
       'processing': true,
-      'url': API_ENDPOINT + '?carId=*',
+      'url': API_ENDPOINT + '?carId=even',
       'dataSrc':'',
     },
     'columns': [
@@ -222,7 +222,7 @@ export default (function () {
   $('#dataTable3').DataTable({
     'ajax': {
       'processing': true,
-      'url': API_ENDPOINT + '?carId=*',
+      'url': API_ENDPOINT + '?carId=odd',
       'dataSrc':'',
     },
     'columns': [
@@ -252,7 +252,7 @@ export default (function () {
   $('#dataTable4').DataTable({
     'ajax': {
       'processing': true,
-      'url': API_ENDPOINT + '?carId=*',
+      'url': API_ENDPOINT + '?carId=text',
       'dataSrc':'',
     },
     'columns': [
